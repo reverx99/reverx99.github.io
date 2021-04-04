@@ -9,6 +9,6 @@
 <p>I have intermediate knowledge in linux systems.</p>
 <p>My closeness to free software made this site available.</p>
 <!--  <p>About Me <a href="link"> Here you go</a>.</p> -->
-<p>If you want to contact me, you can use these addresses without hesitation. <br /> <a href="https://twitter.com/yigitpv">https://twitter.com/yigitpv</a> <br /> <a href="yigiit@protonmail.com">yigiit@protonmail.com</a> <br /> <!-- <a href="link3">Profile3</a>.</p> -->
+<p>If you want to contact me, you can use these addresses without hesitation. <br /> <a href="https://twitter.com/reverx99">https://twitter.com/reverx99</a> <br /> <a href="yigiit@protonmail.com">yigiit@protonmail.com</a> <br /> <!-- <a href="link3">Profile3</a>.</p> -->
 
 
