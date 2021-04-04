@@ -1,6 +1,6 @@
-<p><span id="a">yigit@stallman</span>:<span id="b">~</span><span id="c">$</span> cd /yigits-softwares/</p>
+<p><span id="a">yigit@stallman</span>:<span id="b">~</span><span id="c">$</span> cd /reverx99/</p>
 <!-- laglaglaglaglaglag -->
-<p> <span id="a">yigit@stallman</span>:<span id="b">~</span><span id="c">$</span> cat yigits-sofwares.txt</p>
+<p> <span id="a">yigit@stallman</span>:<span id="b">~</span><span id="c">$</span> cat reverx99.txt</p>
 <!-- laglaglaglaglaglaglaglaglag -->
 <br /><br /> My favorite code quote, "Coding for happiness".</p>
 <!-- sjkfhskjf -->
