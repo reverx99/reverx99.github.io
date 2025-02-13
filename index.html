@@ -23,7 +23,8 @@ layout: default
     </header>
     <main>
         <ul class="post-list">
-            {% for post in site.posts %}
+            {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+            {% for post in sorted_posts %}
             <li>
                 <a href="{{ post.url }}">{{ post.title }}</a>
                 <span>{{ post.date | date: "%d %B %Y" | replace: "January", "Ocak" | replace: "February", "Şubat" | replace: "March", "Mart" | replace: "April", "Nisan" | replace: "May", "Mayıs" | replace: "June", "Haziran" | replace: "July", "Temmuz" | replace: "August", "Ağustos" | replace: "September", "Eylül" | replace: "October", "Ekim" | replace: "November", "Kasım" | replace: "December", "Aralık" }}</span>
