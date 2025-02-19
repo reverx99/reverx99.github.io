@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Sisifos"
+date:   2025-02-19 17:57:52 +0300
+categories: Yazılar
+---
+Sisifos, sürekli kısır döngü içindeydi. İçinde bulunduğu mücadeleden çıkamayacağını, bu döngünün farklı bir yere varamayacağını biliyordu. Kazanmak? Kaybetmek? Bunlar sadece hayatının döngüsünün belirlediği ve belirlenmiş şeylerdi. İnsanların kaybolduğu rüzgaların arasında onun ki devasa bir denizdi.
