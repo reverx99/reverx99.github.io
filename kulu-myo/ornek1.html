@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- Bu belge türünü belirtir ve HTML5 kullanıldığını gösterir -->
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Karakter setini UTF-8 olarak ayarlar, bu sayede Türkçe karakterler düzgün görüntülenir -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sayfanın genişliğini cihazın genişliğine göre ayarlar ve ölçeklemeyi kontrol eder -->
+    <title>HTML Etiketleri</title>
+    <!-- Sayfanın başlığını belirler, tarayıcı sekmesinde görünür -->
+    <style>
+        /* CSS ile sayfanın stilini belirler */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #444;
+        }
+        code {
+            background-color: #eee;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML Etiketleri ve Püf Noktaları</h1>
+    </header>
+    <nav>
+        <a href="#basliklar">Başlıklar</a>
+        <a href="#paragraflar">Paragraflar</a>
+        <a href="#baglantilar">Bağlantılar</a>
+        <a href="#resimler">Resimler</a>
+        <a href="#listeler">Listeler</a>
+        <a href="#formlar">Formlar</a>
+    </nav>
+    <main>
+        <section id="basliklar">
+            <h2>Başlık Etiketleri</h2>
+            <p>HTML'de başlıklar <code>&lt;h1&gt;</code> ile <code>&lt;h6&gt;</code> etiketleri arasında tanımlanır. <code>&lt;h1&gt;</code> en önemli başlığı, <code>&lt;h6&gt;</code> ise en az önemli başlığı belirtir.</p>
+            <pre><code>&lt;h1&gt;Bu bir H1 başlığıdır&lt;/h1&gt;
+&lt;h2&gt;Bu bir H2 başlığıdır&lt;/h2&gt;
+&lt;h3&gt;Bu bir H3 başlığıdır&lt;/h3&gt;
+&lt;h4&gt;Bu bir H4 başlığıdır&lt;/h4&gt;
+&lt;h5&gt;Bu bir H5 başlığıdır&lt;/h5&gt;
+&lt;h6&gt;Bu bir H6 başlığıdır&lt;/h6&gt;</code></pre>
+            <!-- Örnek başlıklar -->
+            <h1 style="font-size: 2em;">Bu bir H1 başlığıdır</h1>
+            <h2 style="font-size: 1.5em;">Bu bir H2 başlığıdır</h2>
+            <h3 style="font-size: 1.17em;">Bu bir H3 başlığıdır</h3>
+            <h4 style="font-size: 1em;">Bu bir H4 başlığıdır</h4>
+            <h5 style="font-size: 0.83em;">Bu bir H5 başlığıdır</h5>
+            <h6 style="font-size: 0.67em;">Bu bir H6 başlığıdır</h6>
+        </section>
+        <section id="paragraflar">
+            <h2>Paragraf Etiketleri</h2>
+            <p>Paragraflar <code>&lt;p&gt;</code> etiketi ile tanımlanır. Paragraflar metinleri düzenlemek için kullanılır.</p>
+            <pre><code>&lt;p&gt;Bu bir paragraf örneğidir.&lt;/p&gt;</code></pre>
+            <!-- Örnek paragraf -->
+            <p>Bu bir paragraf örneğidir.</p>
+        </section>
+        <section id="baglantilar">
+            <h2>Bağlantı Etiketleri</h2>
+            <p>Bağlantılar <code>&lt;a&gt;</code> etiketi ile tanımlanır. <code>href</code> özelliği, bağlantının hedef URL'sini belirtir.</p>
+            <pre><code>&lt;a href="https://www.example.com"&gt;Bu bir bağlantıdır&lt;/a&gt;</code></pre>
+            <!-- Örnek bağlantı -->
+            <a href="https://www.google.com">Bu bir bağlantıdır</a>
+        </section>
+        <section id="resimler">
+            <h2>Resim Etiketleri</h2>
+            <p>Resimler <code>&lt;img&gt;</code> etiketi ile eklenir. <code>src</code> özelliği, resmin dosya yolunu belirtir. <code>alt</code> özelliği, resim yüklenemediğinde gösterilecek alternatif metni belirtir.</p>
+            <pre><code>&lt;img src="resim.jpg" alt="Örnek Resim"&gt;</code></pre>
+            <!-- Örnek resim -->
+            <img src="https://via.placeholder.com/150" alt="Örnek Resim">
+        </section>
+        <section id="listeler">
+            <h2>Liste Etiketleri</h2>
+            <p>Sırasız listeler <code>&lt;ul&gt;</code> ve sıralı listeler <code>&lt;ol&gt;</code> etiketleri ile tanımlanır. Liste elemanları <code>&lt;li&gt;</code> etiketi ile belirtilir.</p>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Birinci Eleman&lt;/li&gt;
+    &lt;li&gt;İkinci Eleman&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Birinci Eleman&lt;/li&gt;
+    &lt;li&gt;İkinci Eleman&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            <!-- Örnek sırasız liste -->
+            <ul>
+                <li>Birinci Eleman</li>
+                <li>İkinci Eleman</li>
+            </ul>
+            <!-- Örnek sıralı liste -->
+            <ol>
+                <li>Birinci Eleman</li>
+                <li>İkinci Eleman</li>
+            </ol>
+        </section>
+        <section id="formlar">
+            <h2>Form Etiketleri</h2>
+            <p>Formlar <code>&lt;form&gt;</code> etiketi ile tanımlanır. Kullanıcıdan veri almak için çeşitli form elemanları kullanılır.</p>
+            <pre><code>&lt;form action="#" method="post"&gt;
+    &lt;label for="name"&gt;Adınız:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name" placeholder="Adınızı girin"&gt;
+
+    &lt;label for="email"&gt;E-posta:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email" placeholder="E-postanızı girin"&gt;
+
+    &lt;input type="submit" value="Gönder"&gt;
+&lt;/form&gt;</code></pre>
+            <!-- Örnek form -->
+            <form action="#" method="post">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" placeholder="Adınızı girin">
+
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" placeholder="E-postanızı girin">
+
+                <input type="submit" value="Gönder">
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; eastereggishere!
+    </footer>
+</body>
+</html>

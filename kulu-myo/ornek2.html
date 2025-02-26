@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Bu belge türünü belirtir ve HTML5 kullanıldığını gösterir -->
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Karakter setini UTF-8 olarak ayarlar, bu sayede Türkçe karakterler düzgün görüntülenir -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sayfanın genişliğini cihazın genişliğine göre ayarlar ve ölçeklemeyi kontrol eder -->
+    <title>Temel HTML Öğrenme Sayfası</title>
+    <!-- Sayfanın başlığını belirler, tarayıcı sekmesinde görünür -->
+    <style>
+        /* CSS ile sayfanın stilini belirler */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 30%; /* Görseli küçültür */
+            height: auto;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Başlık etiketi: Sayfanın ana başlığını belirler -->
+    <h1>Merhaba, HTML Öğreniyoruz! 🚀</h1>
+
+    <!-- Paragraf etiketi: Metinleri düzgün bir şekilde göstermek için kullanılır -->
+    <p>Bu sayfa, temel HTML etiketlerini öğrenmenize yardımcı olacak.</p>
+
+    <!-- Kalın yazı için <strong>, italik yazı için <em> etiketi kullanılır -->
+    <p><strong>HTML</strong> bir işaretleme dilidir ve <em>web sayfalarının yapısını oluşturur.</em></p>
+
+    <!-- Bağlantı etiketi: Kullanıcıyı başka bir sayfaya yönlendirmek için kullanılır -->
+    <p>Daha fazla bilgi için <a href="https://developer.mozilla.org/tr/docs/Web/HTML" target="_blank">buraya tıklayın</a>.</p>
+
+    <!-- Resim etiketi: Sayfaya görseller eklemek için kullanılır -->
+    <img src="https://images.pexels.com/photos/2202967/pexels-photo-2202967.jpeg?cs=srgb&dl=pexels-enginakyurt-2202967.jpg&fm=jpg" alt="Örnek Resim">
+
+    <!-- Sırasız liste (ul) ve sıralı liste (ol) -->
+    <h2>HTML'in Temel Etiketleri</h2>
+    <ul>
+        <!-- Liste elemanları (li) sırasız liste (ul) içinde yer alır -->
+        <li><strong>&lt;h1&gt; - &lt;h6&gt;</strong>: Başlık etiketleri</li>
+        <li><strong>&lt;p&gt;</strong>: Paragraf etiketi</li>
+        <li><strong>&lt;a&gt;</strong>: Bağlantı etiketi</li>
+        <li><strong>&lt;img&gt;</strong>: Resim eklemek için</li>
+        <li><strong>&lt;ul&gt;, &lt;ol&gt;</strong>: Listeler</li>
+    </ul>
+
+    <!-- Formlar: Kullanıcılardan veri almak için -->
+    <h2>Form Örneği</h2>
+    <form action="#" method="post">
+        <!-- Form elemanları: Kullanıcıdan bilgi almak için kullanılır -->
+        <label for="name">Adınız:</label>
+        <!-- Label etiketi: Form elemanlarını tanımlamak için kullanılır -->
+        <input type="text" id="name" name="name" placeholder="Adınızı girin">
+        <!-- Input etiketi: Kullanıcıdan metin girişi almak için kullanılır -->
+
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" placeholder="E-postanızı girin">
+        <!-- Input etiketi: Kullanıcıdan e-posta girişi almak için kullanılır -->
+
+        <input type="submit" value="Gönder">
+        <!-- Input etiketi: Formu göndermek için kullanılır -->
+    </form>
+
+</body>
+</html>
