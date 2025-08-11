@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
-<body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ site.baseurl }}/">Ana Sayfa</a></li>
-                <li><a href="{{ site.baseurl }}/about">Hakkında</a></li>
-                <li><a href="{{ site.baseurl }}/contact">İletişim</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
         {{ content }}
+      </div>
     </main>
-    <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Tüm hakları saklıdır.</p>
-    </footer>
-    <script src="{{ site.baseurl }}/assets/js/script.js"></script>
-</body>
+
+    {%-if site.goat_counter and jekyll.environment == "production"-%}
+      {%-include goat_counter.html-%}
+    {%-endif-%}
+
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+      {% endfor %}
+    {% endif %}
+  </body>
 </html>
