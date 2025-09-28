@@ -1,0 +1,6 @@
+WARRANT CANARY
+Repository: https://github.com/reverx99/reverx99.github.io
+Statement: As of 2025-09-28, I have NOT received any national security letters, gag orders, or government requests that prohibit disclosure.
+Contact: reverx99@gmail.com
+Public key: https://reverx99.github.io/repo/pgp-key.asc
+Signed-by: 0xABCDEF0123456789
