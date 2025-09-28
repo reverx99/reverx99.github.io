@@ -5,8 +5,8 @@ entries:
   - title: info
     entries:
       - title: Old souls in new machines, rewriting the future.
-      - title: github
-        url: https://github.com/reverx99
+      - title: Canary
+        url: https://github.com/reverx99/reverx99.github.io/tree/main/CANARY
       
   - title: all posts
     post_list:
