@@ -1,0 +1,28 @@
+{
+  "_not": "Repo listesi build anında GitHub'dan çekilir. Buradaki 'one_cikan' sırayı belirler; 'gizli' listeye alınanlar hiç görünmez. 'aciklama' altına kendi Türkçe metnini yazarsan GitHub'daki İngilizce açıklamanın yerine o kullanılır. Boş bıraktıklarını GitHub'daki açıklama doldurur.",
+
+  "one_cikan": [
+    "linux-security-auditor",
+    "gsb-wifi-autologin",
+    "void-player",
+    "Realtek-RTL8821CE-Bluetooth-Dropout-Fix"
+  ],
+
+  "gizli": [
+    "reverx99.github.io",
+    "reverx99.github.io-legacy"
+  ],
+
+  "aciklama": {
+    "linux-security-auditor": "Fedora, Debian ve Arch için otomatik güvenlik denetim paketi. ClamAV, rkhunter ve Lynis'i tek elden çalıştırıp zararlı yazılım, rootkit ve sistem açıklarını tarar — araya hiçbir şişkinlik koymadan.",
+    "gsb-wifi-autologin": "KYK yurtlarındaki GSB WiFi ağına Linux'tan otomatik giriş yapan ve bağlantıyı ayakta tutan servis. DNS ve oturum kopmalarını kendi başına çözer.",
+    "void-player": "Şişkinliksiz oynatıcı. Ne eksik ne fazla.",
+    "Realtek-RTL8821CE-Bluetooth-Dropout-Fix": "Linux'ta Realtek RTL8821CE (rtw88) yongasının Bluetooth kopma sorununun çözümü.",
+    "my-desktop-dotfiles": "bspwm ve sxhkd yapılandırmalarım.",
+    "my-i3wm-config": "i3wm yapılandırmam.",
+    "cleaning-and-uptating-for-dnf": "dnf için hızlı temizlik ve güncelleme betiği.",
+
+    "kripto-site": "",
+    "santral": ""
+  }
+}

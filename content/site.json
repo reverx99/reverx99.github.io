@@ -1,0 +1,49 @@
+{
+  "title": "reverx99",
+  "description": "Yiğit (reverx99) — Linux sistem araçları, kabuk betikleri ve donanım üzerine çalışıyorum.",
+  "author": "Yiğit",
+  "handle": "reverx99",
+  "lang": "tr",
+  "url": "https://reverx99.github.io",
+  "base": "/",
+  "theme": "geo",
+  "palette": "bsod",
+  "github": "reverx99",
+  "location": "",
+  "nav": [
+    {
+      "href": "/",
+      "label": "ana sayfa"
+    },
+    {
+      "href": "/projeler/",
+      "label": "projeler"
+    },
+    {
+      "href": "/gunluk/",
+      "label": "günlük"
+    },
+    {
+      "href": "/fortune/",
+      "label": "fortune"
+    }
+  ],
+  "email": "",
+  "social": [
+    {
+      "ag": "github",
+      "etiket": "reverx99",
+      "url": "https://github.com/reverx99"
+    },
+    {
+      "ag": "instagram",
+      "etiket": "reveerx",
+      "url": "https://instagram.com/reveerx"
+    },
+    {
+      "ag": "rss",
+      "etiket": "rss",
+      "url": "/rss.xml"
+    }
+  ]
+}
